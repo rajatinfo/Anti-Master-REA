@@ -1,0 +1,41 @@
+{
+  "name": "Anti-Master-REA",
+  "owner": "rajatinfo",
+  "modules": [
+    {
+      "name": "rea",
+      "repo": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "branch": "main",
+      "role": "Core REA agent framework"
+    },
+    {
+      "name": "REA-Windows-Github",
+      "repo": "tonchovet/REA-Windows-Github",
+      "url": "https://github.com/tonchovet/REA-Windows-Github",
+      "branch": "main",
+      "role": "Windows Hopper/Ghidra/IDA MCP bridge"
+    },
+    {
+      "name": "REA_Skill",
+      "repo": "smartworldarafath/REA_Skill",
+      "url": "https://github.com/smartworldarafath/REA_Skill",
+      "branch": "main",
+      "role": "21 agent skills and 500 prompts"
+    },
+    {
+      "name": "DecompileAnything",
+      "repo": "DrBellubins/DecompileAnything",
+      "url": "https://github.com/DrBellubins/DecompileAnything",
+      "branch": "main",
+      "role": "x86 binary decompiler"
+    },
+    {
+      "name": "awesome-reverse-engineer-anything",
+      "repo": "AIshihzong/awesome-reverse-engineer-anything",
+      "url": "https://github.com/AIshihzong/awesome-reverse-engineer-anything",
+      "branch": "main",
+      "role": "Curated AI reverse-engineering cases"
+    }
+  ]
+}
