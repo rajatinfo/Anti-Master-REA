@@ -43,13 +43,15 @@
       "name": "rea-antigravity",
       "url": "https://github.com/womp08310-cyber/rea-antigravity",
       "installer": "https://raw.githubusercontent.com/womp08310-cyber/rea-antigravity/main/install.ps1",
-      "role": "REA Windows installer"
+      "role": "Automated REA, OpenJDK 21, Ghidra, JADX Headless MCP & mcp_config.json installer"
     },
     {
       "name": "jdx",
+      "version": "1.8.0",
       "url": "https://github.com/MohammadMD1383/jdx/releases",
+      "docs": "https://mohammadmd1383.github.io/jdx/integrations/antigravity/",
       "installer": "https://raw.githubusercontent.com/MohammadMD1383/jdx/main/install-release.ps1",
-      "role": "Java/Kotlin analysis and MCP tool"
+      "role": "Java/Kotlin bytecode & classpath MCP server"
     },
     {
       "name": "jadx",
@@ -59,15 +61,30 @@
     },
     {
       "name": "temurin25-binaries",
-      "version": "jdk-25.0.5.1",
+      "version": "jdk-25.0.5.1+2",
       "url": "https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5.1",
-      "role": "Adoptium Temurin JDK 25 runtime for JADX and jdx"
+      "role": "OpenJDK 25 LTS runtime for Ghidra 12.2 and JADX CLI"
     },
     {
       "name": "PCAPdroid-mitm",
       "url": "https://github.com/emanuele-f/PCAPdroid-mitm",
       "docs": "https://emanuele-f.github.io/PCAPdroid/tls_decryption",
       "role": "Android MITM & TLS decryption"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "MobileNext",
+      "url": "https://app.mobilenext.ai/mcp",
+      "role": "Cloud Android MCP testing"
+    },
+    {
+      "name": "Appetize.io",
+      "role": "Browser-based Android emulator"
+    },
+    {
+      "name": "Proxyman",
+      "role": "Desktop HTTPS proxy (port 9090)"
     }
   ],
   "references": [
