@@ -1,0 +1,15 @@
+[submodule "modules/rea"]
+	path = modules/rea
+	url = https://github.com/morluto/rea.git
+[submodule "modules/REA-Windows-Github"]
+	path = modules/REA-Windows-Github
+	url = https://github.com/tonchovet/REA-Windows-Github.git
+[submodule "modules/REA_Skill"]
+	path = modules/REA_Skill
+	url = https://github.com/smartworldarafath/REA_Skill.git
+[submodule "modules/DecompileAnything"]
+	path = modules/DecompileAnything
+	url = https://github.com/DrBellubins/DecompileAnything.git
+[submodule "modules/awesome-reverse-engineer-anything"]
+	path = modules/awesome-reverse-engineer-anything
+	url = https://github.com/AIshihzong/awesome-reverse-engineer-anything.git
