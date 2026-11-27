@@ -37,5 +37,40 @@
       "branch": "main",
       "role": "Curated AI reverse-engineering cases"
     }
+  ],
+  "toolchain": [
+    {
+      "name": "rea-antigravity",
+      "url": "https://github.com/womp08310-cyber/rea-antigravity",
+      "installer": "https://raw.githubusercontent.com/womp08310-cyber/rea-antigravity/main/install.ps1",
+      "role": "REA Windows installer"
+    },
+    {
+      "name": "jdx",
+      "url": "https://github.com/MohammadMD1383/jdx/releases",
+      "installer": "https://raw.githubusercontent.com/MohammadMD1383/jdx/main/install-release.ps1",
+      "role": "Java/Kotlin analysis and MCP tool"
+    },
+    {
+      "name": "jadx",
+      "version": "1.5.7",
+      "url": "https://github.com/skylot/jadx/releases/download/v1.5.7/jadx-1.5.7.zip",
+      "role": "APK decompiler (classes.dex to Java/resources)"
+    },
+    {
+      "name": "temurin25-binaries",
+      "version": "jdk-25.0.5.1",
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5.1",
+      "role": "Adoptium Temurin JDK 25 runtime for JADX and jdx"
+    },
+    {
+      "name": "PCAPdroid-mitm",
+      "url": "https://github.com/emanuele-f/PCAPdroid-mitm",
+      "docs": "https://emanuele-f.github.io/PCAPdroid/tls_decryption",
+      "role": "Android MITM & TLS decryption"
+    }
+  ],
+  "references": [
+    "https://github.com/morluto/rea/discussions/6281"
   ]
 }
